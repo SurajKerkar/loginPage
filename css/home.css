@@ -1,0 +1,55 @@
+body{
+    /* background-color: red; */
+    padding: 0;
+    margin: 0;
+    font-family: "Muli",sans-serif;
+    /* font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5; */
+    color: #212529;
+    /* overflow: hidden; */
+}
+
+.img1{
+    /* border: 2px solid red; */
+    background-image: url(/img/3046013.jpg);
+    /* background-color: aliceblue; */
+    /* background-image: url(https://media.istockphoto.com/id/1092103792/photo/woman-with-ironed-clothes-in-the-laundry.jpg?s=612x612&w=0&k=20&c=E9FG7CbFDHYdftteGTRh7MXOkX2YyFJa2nQzlpMEAWY=); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 90vh;
+    /* opacity: 0.8; */
+}
+
+
+.btn{
+    border-radius: 25px;
+}
+
+.p-edit{
+    font-size: 30px;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .text-edit{
+        font-size: 30px;
+        
+    }
+
+    .p-edit{
+        font-size: 12px;
+        
+    }
+
+    .img1{
+        background-image: none;
+        background-color: aliceblue;
+        height: 300px;
+        text-align: center;
+    }
+}
